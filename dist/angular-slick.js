@@ -2,7 +2,7 @@
  * angular-slick-carousel
  * DevMark <hc.devmark@gmail.com>
  * https://github.com/devmark/angular-slick-carousel
- * Version: 3.1.4 - 2015-12-26T03:01:55.410Z
+ * Version: 3.1.4 - 2016-04-03T10:49:21.105Z
  * License: MIT
  */
 
@@ -86,8 +86,8 @@ angular
               arrows: scope.arrows !== 'false',
               asNavFor: scope.asNavFor ? scope.asNavFor : void 0,
               appendArrows: scope.appendArrows ? angular.element(scope.appendArrows) : angular.element(element),
-              prevArrow: scope.prevArrow ? angular.element(scope.prevArrow) : void 0,
-              nextArrow: scope.nextArrow ? angular.element(scope.nextArrow) : void 0,
+              prevArrow: scope.prevArrow ? scope.prevArrow : void 0,
+              nextArrow: scope.nextArrow ? scope.nextArrow : void 0,
               centerMode: scope.centerMode === 'true',
               centerPadding: scope.centerPadding || '50px',
               cssEase: scope.cssEase || 'ease',
